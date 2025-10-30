@@ -1,3 +1,4 @@
+import taskAutomation.patientInfo;
 public class Main2 {
     public static void main(String[] args) {
         patientInfo p1 = new patientInfo("Nansereko Jjuko", 30);
