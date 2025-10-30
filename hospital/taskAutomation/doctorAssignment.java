@@ -14,4 +14,12 @@ public class doctorAssignment {
     public doctorAssignment(String DocName) {
         DoctorName = DocName;
     }
+
+    public int getDoctorId() {
+        return DoctorId;
+    }
+
+    public String getDoctorName() {
+        return DoctorName;
+    }
 }
