@@ -15,4 +15,20 @@ public class patientInfo {
         patientName = Pname;
         patientBedNo = PBedNo;
     }
+
+    public static String getHospitalName() {
+        return hospitalName;
+    }
+
+    public static String getWard() {
+        return ward;
+    }
+
+    public String getPatientName() {
+        return patientName;
+    }
+
+    public int getPatientBedNo() {
+        return patientBedNo;
+    }
 }
